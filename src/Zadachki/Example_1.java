@@ -2,7 +2,7 @@ package Zadachki;
 
 import java.util.Scanner;
 
-public class test {
+public class Example_1 {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
         int amount = userInput.nextInt();
@@ -14,7 +14,6 @@ public class test {
             }
             i++;
         }
-
 
     }
 }
