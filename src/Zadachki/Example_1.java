@@ -1,20 +1,20 @@
 package Zadachki;
+
 import java.util.Scanner;
 
-public class Example_1 {
-
+public class test {
     public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    int amount = scanner.nextInt();
+        Scanner userInput = new Scanner(System.in);
+        int amount = userInput.nextInt();
 
-    while (amount == 72900) {
-   /*     if (amount > 72900) {
-            continue;
+        System.out.println("------------------------------------------"); // Separation
+        for (int i = 0; i <= 4; amount -= (amount / 10)) {
+            if (i == 3) {
+                System.out.println(amount);
+            }
+            i++;
         }
 
-    */
-        amount = amount - amount / 10;
-        System.out.println(amount);
-    }
+
     }
 }
